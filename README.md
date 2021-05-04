@@ -25,7 +25,7 @@ Parameters :
 - `path` : The default path in which the explorer will be opened.
 - `existence_required` : Boolean indicating whether or not the file should already exist.
 - `handle_same_file` : Boolean indicating whether or not to warn the user if the file he selected already exists.
-  - Automatically `False` if existence_required is True.
+  - Automatically `False` if existence_required is `True`.
 - `enable_commands` : Boolean indicating whether or not commands (`MKDIR`/`RMDIR`) are enabled.
 - `extensions_list` : A tuple of extensions the user can open. By default, any.
 - `cancel_enabled` : Boolean indicating if the CANCEL command should be enabled or not.
